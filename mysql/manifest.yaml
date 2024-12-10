@@ -21,8 +21,8 @@ spec:
     metadata:
     # these lables belongs to pod
       labels:
-        tier: mysql
-        app: db
+        tier: db
+        app: mysql
         project: expense
     spec:
       containers:
