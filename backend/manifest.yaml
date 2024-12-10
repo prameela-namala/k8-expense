@@ -36,9 +36,9 @@ spec:
       containers:
       - name: backend
         image: prameela0/backend:v1
-      envFrom:
-      - configMapRef:
-          name: backend
+        envFrom:
+        - configMapRef:
+           name: backend
 ---
 apiVersion: v1
 kind: Service
