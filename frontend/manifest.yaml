@@ -10,6 +10,7 @@ metadata:
     project: expense
 spec:
   # modify replicas according to your case
+  type: LoadBalancer
   replicas: 2
   selector:
   # these are used to select the pod to create replicas
