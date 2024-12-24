@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: debug
+  namespace: expense
+  
+spec:
+  containers:
+  # docker run -d  --name nginx nginx
+  - name: debug
+    image: prameela0/debug:v1  
+    
