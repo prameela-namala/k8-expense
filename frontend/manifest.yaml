@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: prameela0/frontend:v1
+        image: joindevops/frontend:v1
 ---
 apiVersion: v1
 kind: Service
